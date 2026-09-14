@@ -43,7 +43,7 @@ VRAM不使用・CPU推論のみで動作するようになった。
 
 - 長文の翻訳が通らない（トークン制限とメモリ負荷。チャンキング未実装）
 - サーバーの自動起動なし（`node server.js` を手動で実行する必要がある）
-- VOICEVOXの起動が安定しない(おそらくセキュリティ絡み)
+- VOICEVOXの起動が不安定(おそらくセキュリティ絡み)
 
 ## サーバーのセットアップ
 
@@ -79,7 +79,7 @@ sudo apt install -y build-essential
 
 ## 注意
 
-`Xenova/nllb-200-distilled-600M` を使用しているため、モデルを変更しない限りは**非商用推奨**
+`Xenova/nllb-200-distilled-600M` を使用している
 - モデル: https://huggingface.co/Xenova/nllb-200-distilled-600M
 - ライセンス: CC-BY-NC-4.0 https://spdx.org/licenses/CC-BY-NC-4.0
 
